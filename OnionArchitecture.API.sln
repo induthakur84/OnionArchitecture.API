@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18 d17.14
+VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.API", "OnionArchitecture.API\OnionArchitecture.API.csproj", "{5D0F2ECD-C91A-4127-9267-13FF96A9CEA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Data", "OnionArchitecture.Data\OnionArchitecture.Data.csproj", "{F3467D69-D636-4BCA-8CD7-28A5C56017EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Domain", "OnionArchitecture.Domain\OnionArchitecture.Domain.csproj", "{DB1C900B-634D-4DD9-8A9A-7ED9DE8FB4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.DTO", "OnionArchitecture.DTO\OnionArchitecture.DTO.csproj", "{E72D1A17-4540-4C00-A50C-10A386D3594D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DB1C900B-634D-4DD9-8A9A-7ED9DE8FB4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1C900B-634D-4DD9-8A9A-7ED9DE8FB4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1C900B-634D-4DD9-8A9A-7ED9DE8FB4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72D1A17-4540-4C00-A50C-10A386D3594D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72D1A17-4540-4C00-A50C-10A386D3594D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72D1A17-4540-4C00-A50C-10A386D3594D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72D1A17-4540-4C00-A50C-10A386D3594D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
