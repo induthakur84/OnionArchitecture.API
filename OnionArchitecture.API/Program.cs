@@ -1,15 +1,25 @@
 using Microsoft.EntityFrameworkCore;
 using OnionArchitecture.Data;
+using OnionArchitecture.Data.Services;
+using OnionArchitecture.Data.Services.IServices;
+using OnionArchitecture.DTO;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+// Register Dependency Injection for ProductService and IProductService
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 
+//Register the automapper 
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 // Add services to the container.
 
 builder.Services.AddControllers();
